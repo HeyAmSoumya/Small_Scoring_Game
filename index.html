@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <head>
+      <meta charset="UTF-8">
+    </head>
+    <title>Keep Score</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <!-- <style>
+      .winner {
+        color: green;
+      }
+
+      .loser {
+        color: red;
+      }
+
+      .resetC {
+        color: black;
+      }
+    </style> -->
+  </head>
+
+  <body>
+
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-half is-offset-one-quarter">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-2by1">
+                  <img
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvSD-lC41zV0JScxRkEq0N8bC-7HvEGUiAo--NzezgipaSyRHniRslYEvkmjXNDbGNifrdTryjjJJ9TQKLrVf4kpmXtZ7nChaBSNQy67lfucitCbUrhipjXEnxLsXEC1Kau24HqXw8Rmot7Cn4mK7BubQ5VziGcvQik1mBteNe1lK5lN6EWaeo8I6U/s320/lisa-keffer-i0kB5B9J8Ds-unsplash.jpg alt="
+                    pic">
+                </figure>
+              </div>
+              <header class="card-header">
+                <p class="card-header-title">
+                  Ping Pong Game
+                </p>
+                <button class="card-header-icon" aria-label="more options">
+                  <span class="icon">
+                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                  </span>
+                </button>
+              </header>
+              <div class="card-content">
+                <div class="content">
+
+                  <h1 class="title is-1"><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
+                  <p class="subtile">Use the buttons below to keep score</p>
+
+                  <label for="playTO" class="label is-large is-inline">Playing To </label>
+                  <div class="select is-rounded">
+                    <select id="playTO" name="">
+                      <option value="3">3</option>
+                      <option value="5">5</option>
+                      <option value="7">7</option>
+                      <option value="11">11</option>
+                      <option value="15">15</option>
+                      <option value="17">17</option>
+                      <option value="22">22</option>
+                    </select>
+                  </div>
+
+
+                </div>
+              </div>
+              <footer class="card-footer">
+                <button id="p1Button" class="is-primary button card-footer-item">+1 player</button>
+                <button id="p2Button" class="is-info button card-footer-item">+2 player</button>
+                <button id="reset" class="is-danger button card-footer-item">Reset</button>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- // "NO LONGER IS NESSCARY AFTER CREATING ANOTHER BUTTONS" -->
+
+
+    <!-- 
+    <select id="playTO" name="">
+      <option value="3">3</option>
+      <option value="5">5</option>
+      <option value="7">7</option>
+      <option value="11">11</option>
+      <option value="15">15</option>
+      <option value="17">17</option>
+      <option value="22">22</option>
+    </select> -->
+
+
+    <!-- <button id="p1Button">player one</button>
+    <button id="p2Button">player two</button>
+    <button id="reset">Reset</button> -->
+
+    <script src="app.js"></script>
+  </body>
+
+</html>

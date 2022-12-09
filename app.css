@@ -1,0 +1,20 @@
+/* buttons */
+
+.btn {
+  margin-top: 20px;
+}
+
+/* main-container */
+
+.container-md{
+  background-color: rgb(255, 255, 255);
+  width: 420px;
+  height: 300px;
+  margin-top: 50px;
+}
+
+/* Image */
+.img{
+  width: 500px;
+  height: 300px;
+}
